@@ -3,7 +3,7 @@ var express = require("express"),
 	MBTiles = require('mbtiles'),
 	p = require("path"),
 	fs = require('fs');
-var tilesDir = "./";
+var tilesDir = "./tilesets/";
 var port = 4400;
 
 function getContentType(t) {
