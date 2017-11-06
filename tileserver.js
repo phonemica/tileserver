@@ -1,7 +1,7 @@
 var express = require("express"),
 	app = express(),
 	MBTiles = require('mbtiles');
-var mbtilesLocation = 'xyy3.mbtiles';
+var mbtilesLocation = 'tilesets/xyy3.mbtiles';
 new MBTiles(mbtilesLocation, function(err, mbtiles) {
 	if (err) throw err;
 	app.get('/:z/:x/:y', function(req, res) {
