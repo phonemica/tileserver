@@ -60,3 +60,4 @@ typings/
 # other stuff
 standard.mbtiles
 package-lock.json
+.DS_Store
