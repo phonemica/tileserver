@@ -58,6 +58,6 @@ typings/
 .env
 
 # other stuff
-standard.mbtiles
+tilesets/xyy3.mbtiles
 package-lock.json
 .DS_Store
