@@ -1,13 +1,21 @@
 {
   "name": "tileserver",
-  "description": "Express.js based tile server for .mbtiles",
+  "description": "Extremely minimal tile server",
   "version": "0.0.1",
+  "private": false,
   "author": "柯禕藍",
   "dependencies": {
     "express": "*",
     "mbtiles": "*"
   },
-  "main": "index.js",
+  "engines": {
+    "node": "0.8.x"
+  },
+  "scripts": {
+    "start": "node tileserver.js"
+  },
+  "main": "tileserver.js",
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/phonemica/tileserver.git"
